@@ -21,7 +21,8 @@ def menu():
         elif opcion == "2":
             ordenar_ventas()
         elif opcion == "3":
-            buscar_venta()
+            bv=input("inrese el Id venta abuscar")
+            buscar_venta(bv)
         elif opcion == "4":
             eliminar_venta()
         elif opcion == "5":

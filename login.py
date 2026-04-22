@@ -7,7 +7,7 @@ def loggin():
 
     while intentos < 4 and acceso == False:
 
-        user = input("Usuario: ")
+        user = input("correo: ")
         clave = input("Contraseña: ")
 
         encontrado = False

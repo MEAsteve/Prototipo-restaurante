@@ -45,7 +45,7 @@ def mostrar_ventas():
     for a in ventas_restaurante:
         print(a)
         
-        return print()
+    
     
    
     
@@ -60,6 +60,7 @@ def buscar_venta(id_buscar):
     for venta in ventas_restaurante:
         if venta["idVenta"] == id_buscar:
             return venta
+        print(venta)
     return None
 
 
