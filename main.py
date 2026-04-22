@@ -1,5 +1,6 @@
 from login import registrar_usuario 
 from login import loggin
+from menu import menu
 
 while True:
         print("\n1. Registrar")
@@ -13,8 +14,7 @@ while True:
         elif opcion == "2":
             llave=loggin()
             if llave == True :
-                print("1. Gestionar ventas")
-                print("2. Salir")
+                menu()
             elif  llave==False :
                 print("Paila mijo")
                 
