@@ -22,17 +22,18 @@ def loggin():
         else:
             print("Datos incorrectos")
             intentos = intentos + 1
-            print("Intento", intentos, "de 3")
+            print("Intento", intentos, "de 4")
 
     if acceso == True:
         print("Bienvenido al sistema")
     else:
         print("Acceso bloqueado")
-    return False
+    return acceso
     
     
 def registrar_usuario():
     correo = input("Ingrese correo: ")
     password = input("Ingrese contraseña: ")
-    usuarios.append({"correo": correo, "password": password})
+    usuarios.append( correo )
+    claves.append( password)
     print("Usuario registrado correctamente\n")    

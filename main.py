@@ -11,7 +11,13 @@ while True:
         if opcion == "1":
             registrar_usuario()
         elif opcion == "2":
-            loggin()
+            llave=loggin()
+            if llave == True :
+                print("1. Gestionar ventas")
+                print("2. Salir")
+            elif  llave==False :
+                print("Paila mijo")
+                
         elif opcion == "3":
             break
         else:
